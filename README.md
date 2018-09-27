@@ -2,7 +2,8 @@
 This tool dumps the ARZL compressed version of the Non-Secure Kernel BootLoader that is extracted from kernel_boot_loader.self and located @ 0x50000000.
 
 # Usage
-LoadStart this kprx as early/low-level as possible.
+- LoadStart this kprx as early/low-level as possible.
+- The dump will be created in ur0:ndp/
 
 # Credits
 - Xyzz for physdump.c
